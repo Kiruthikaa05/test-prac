@@ -4,4 +4,4 @@ function Object (){
      Age:5,
 }
 }
-module.export=Object
+module.exports=Object
