@@ -1,3 +1,10 @@
+const helo=require('./Helo')
+describe("helo",()=>{
+  it("this is word",()=>{
+     let word=helo()
+    expect(word).toEqual(Hello world!!!)
+})
+});
 const add=require('./Add')
 describe("addition",()=>{
   it("this is addition",()=>{
